@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>if [[ "${PLAY_HOME}" ]]
+    then echo "&lt;meta http-equiv='Refresh' content='0;URL=file://$PLAY_HOME/documentation/api/scala/index.html'&gt;"
+    else echo "&lt;meta http-equiv='Refresh' content='0;URL=http://www.scala-lang.org/api/current/index.html'&gt;"
+fi
+
+</string>
+	<key>fallbackInput</key>
+	<string>word</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>^H</string>
+	<key>name</key>
+	<string>Play Help</string>
+	<key>output</key>
+	<string>showAsHTML</string>
+	<key>scope</key>
+	<string>source.scala</string>
+	<key>uuid</key>
+	<string>C5FC190A-A0C8-4780-A5E3-856E6DF6160E</string>
+</dict>
+</plist>

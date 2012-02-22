@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Play2</string>
+	<key>ordering</key>
+	<array>
+		<string>41625860-A55B-4AF8-9F2A-F0868703D24B</string>
+		<string>D059B8FA-90FE-4753-AD79-1BFF4B368AAF</string>
+		<string>914853F6-38AF-4929-91A6-8E5687B916BC</string>
+		<string>2E0733A2-B17B-49BB-AE4C-8000CE1F7F69</string>
+		<string>47F52759-E2F0-4A67-BF17-41609F60FCBF</string>
+		<string>7852F1A7-ECDF-410E-BD65-249B0B67952C</string>
+		<string>59E415FF-5691-40E3-8A73-92CF386E88B2</string>
+		<string>A098EB53-8A04-46C3-AED9-DB67F338344F</string>
+		<string>3333B32C-CF3E-469F-8EA2-311F8FB78B8E</string>
+		<string>C8B2DE49-EF0F-40B1-AE2F-FDE50693396B</string>
+		<string>F448AB01-68C0-46DC-9467-90BE65826330</string>
+		<string>178B502E-323F-43AE-AA5E-8B16CB95320F</string>
+		<string>C5FC190A-A0C8-4780-A5E3-856E6DF6160E</string>
+		<string>3538BC80-B305-480F-8404-FBB1F03973F3</string>
+		<string>98F5FB9A-A944-44E1-A819-4706C9B857F7</string>
+		<string>C69A75E4-FFB8-4462-B7E0-D8A760F6C495</string>
+		<string>40BD082A-C6D7-4DA1-A702-D0F444790E05</string>
+	</array>
+	<key>uuid</key>
+	<string>70095E5F-AAD8-4BF2-9E92-E45E36DB1B9D</string>
+</dict>
+</plist>

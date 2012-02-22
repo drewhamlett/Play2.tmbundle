@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>BadRequest($0)</string>
+	<key>name</key>
+	<string>BadRequest</string>
+	<key>scope</key>
+	<string>source.scala</string>
+	<key>tabTrigger</key>
+	<string>result</string>
+	<key>uuid</key>
+	<string>59E415FF-5691-40E3-8A73-92CF386E88B2</string>
+</dict>
+</plist>

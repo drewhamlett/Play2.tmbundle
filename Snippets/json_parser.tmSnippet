@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>implicit object ${1}Format extends Format[ ${1} ] {
+
+	def reads(json : JsValue) : ${1} = null
+
+	def writes(t : ${1}) : JsValue = JsObject(
+		List(
+			"$2" -&gt; JsString(t.$0),
+				
+		)
+	)
+}</string>
+	<key>name</key>
+	<string>JSON Parser</string>
+	<key>scope</key>
+	<string>source.scala</string>
+	<key>tabTrigger</key>
+	<string>parser</string>
+	<key>uuid</key>
+	<string>178B502E-323F-43AE-AA5E-8B16CB95320F</string>
+</dict>
+</plist>

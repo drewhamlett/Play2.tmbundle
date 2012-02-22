@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>FILE=$TM_DROPPED_FILE 
+echo -n "\${1:Ok}(views.html."
+y=${FILE%.scala.html}
+echo -n $y | sed -e 's#^.*/views/##g' | tr -d '\n' | sed -e 's/\//\./g' | tr -d '\n'
+echo -n "(\$2))\$0"</string>
+	<key>draggedFileExtensions</key>
+	<array>
+		<string>html</string>
+	</array>
+	<key>input</key>
+	<string>selection</string>
+	<key>name</key>
+	<string>View Render</string>
+	<key>output</key>
+	<string>insertAsSnippet</string>
+	<key>scope</key>
+	<string>source.scala</string>
+	<key>uuid</key>
+	<string>3333B32C-CF3E-469F-8EA2-311F8FB78B8E</string>
+</dict>
+</plist>

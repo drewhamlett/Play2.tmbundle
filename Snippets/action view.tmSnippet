@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>def ${1:action}${2:()} = Action {
+	Ok(views.html.${1}($0))
+}</string>
+	<key>name</key>
+	<string>With View</string>
+	<key>scope</key>
+	<string>source.scala</string>
+	<key>tabTrigger</key>
+	<string>action</string>
+	<key>uuid</key>
+	<string>D059B8FA-90FE-4753-AD79-1BFF4B368AAF</string>
+</dict>
+</plist>
