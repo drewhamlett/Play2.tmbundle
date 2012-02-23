@@ -4,5 +4,7 @@ Basic [Playframework 2.0](https://github.com/playframework/Play20) view support 
 
 To install with Git:
 
+```bash
   git clone git://github.com/drewhjava/Play2.tmbundle.git "Play2.tmbundle"
   open Play2.tmbundle
+```  
