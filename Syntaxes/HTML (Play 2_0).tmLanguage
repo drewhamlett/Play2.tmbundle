@@ -24,7 +24,7 @@
 	<array>
 		<dict>
 			<key>match</key>
-			<string>\b(if|match|case|map|implicit|Html|String|import|true|false)\b</string>
+			<string>\b(if|match|case|map|implicit|Html|String|import|true|false|else)\b</string>
 			<key>name</key>
 			<string>keyword.control.play</string>
 		</dict>
@@ -49,6 +49,12 @@
 			</dict>
 			<key>match</key>
 			<string>(\{)\s+(\w+)\s+(\=&gt;)</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>&lt;-</string>
+			<key>name</key>
+			<string>keyword.control.play</string>
 		</dict>
 		<dict>
 			<key>begin</key>

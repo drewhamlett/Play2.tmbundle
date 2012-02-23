@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>def ${1:action}($2) = Action {
-	${3:Ok()}${0}
-}</string>
+	<string>@for($1 &lt;- $2) {
+	@$1$0
+} </string>
 	<key>name</key>
-	<string>Action</string>
+	<string>for</string>
 	<key>scope</key>
-	<string>source.scala</string>
+	<string>text.html</string>
 	<key>tabTrigger</key>
-	<string>action</string>
+	<string>for</string>
 	<key>uuid</key>
-	<string>41625860-A55B-4AF8-9F2A-F0868703D24B</string>
+	<string>7A817C5A-2AEA-4AE8-8CF6-3A80004D6A5D</string>
 </dict>
 </plist>

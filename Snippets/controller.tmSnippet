@@ -3,16 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>def ${1:action}($2) = Action {
-	${3:Ok()}${0}
-}</string>
+	<string>package controllers
+
+import play.api._
+import play.api.mvc._
+
+object $1 extends Controller {
+
+	def index = Action {
+		Ok(views.html.index("Your new application is ready."))
+	}
+
+}
+
+
+</string>
 	<key>name</key>
-	<string>Action</string>
+	<string>controller</string>
 	<key>scope</key>
 	<string>source.scala</string>
 	<key>tabTrigger</key>
-	<string>action</string>
+	<string>controller</string>
 	<key>uuid</key>
-	<string>41625860-A55B-4AF8-9F2A-F0868703D24B</string>
+	<string>508CF068-EE73-48DA-A93F-58F81E2E8A02</string>
 </dict>
 </plist>

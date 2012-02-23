@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>def ${1:action}${2:()} = Action {
+	<string>def ${1:action}($2) = Action {
 	Ok(views.html.${1}($0))
 }</string>
 	<key>name</key>
