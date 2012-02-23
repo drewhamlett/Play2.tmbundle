@@ -24,7 +24,7 @@
 	<array>
 		<dict>
 			<key>match</key>
-			<string>\b(if|match|case|map|implicit|Html|String|import|true|false|else)\b</string>
+			<string>\b(if|match|case|map|implicit|import|true|false|else)\b</string>
 			<key>name</key>
 			<string>keyword.control.play</string>
 		</dict>
@@ -97,7 +97,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?&lt;![\w,@])@(\w+(?:\.\w+)*)</string>
+			<string>(?&lt;![\w,@])@(?!import|if)(\w+(?:\.\w+)*)</string>
 			<key>name</key>
 			<string>entity.name.function</string>
 		</dict>

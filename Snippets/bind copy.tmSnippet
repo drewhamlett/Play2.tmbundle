@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>bindFromRequest.fold(
+	formWithErrors =&gt; $1
+	value =&gt; $0 
+)</string>
+	<key>name</key>
+	<string>bind copy</string>
+	<key>scope</key>
+	<string>source.scala</string>
+	<key>tabTrigger</key>
+	<string>bind</string>
+	<key>uuid</key>
+	<string>25088452-6A36-48D8-878E-7604700DFF0A</string>
+</dict>
+</plist>

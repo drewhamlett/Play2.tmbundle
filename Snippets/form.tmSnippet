@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Form(
+	mapping(
+		"${1}" -&gt; text${0}		
+	)(${2}.apply)(${2}.unapply)
+)</string>
+	<key>name</key>
+	<string>form with object</string>
+	<key>scope</key>
+	<string>source.scala</string>
+	<key>tabTrigger</key>
+	<string>form</string>
+	<key>uuid</key>
+	<string>564A0F22-0809-4A19-A63D-3FF1899EB51C</string>
+</dict>
+</plist>

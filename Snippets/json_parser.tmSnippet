@@ -5,12 +5,13 @@
 	<key>content</key>
 	<string>implicit object ${1}Format extends Format[ ${1} ] {
 
-	def reads(json : JsValue) : ${1} = null
+	def reads(json : JsValue) : ${1} = ${1}(
+		(json \ "$2").as[String]
+	)
 
 	def writes(t : ${1}) : JsValue = JsObject(
 		List(
-			"$2" -&gt; JsString(t.$0),
-				
+			"$2" -&gt; JsString(t.$2)$0			
 		)
 	)
 }</string>
@@ -19,7 +20,7 @@
 	<key>scope</key>
 	<string>source.scala</string>
 	<key>tabTrigger</key>
-	<string>parser</string>
+	<string>json</string>
 	<key>uuid</key>
 	<string>178B502E-323F-43AE-AA5E-8B16CB95320F</string>
 </dict>
