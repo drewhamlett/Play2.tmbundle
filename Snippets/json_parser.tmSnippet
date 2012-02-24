@@ -14,7 +14,8 @@
 			"$2" -&gt; JsString(t.$2)$0			
 		)
 	)
-}</string>
+}
+</string>
 	<key>name</key>
 	<string>JSON Parser</string>
 	<key>scope</key>
