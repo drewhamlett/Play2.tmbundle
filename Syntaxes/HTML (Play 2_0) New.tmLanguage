@@ -19,7 +19,7 @@
 		|(^|\s)\}
 		)</string>
 	<key>name</key>
-	<string>HTML (Play 2.0) New</string>
+	<string>HTML (Play 2.0)</string>
 	<key>patterns</key>
 	<array>
 		<dict>
